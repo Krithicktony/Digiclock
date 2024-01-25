@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    background: url("image/background-3104413_640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: blue;
+}
+}
+.main{
+    display: flex;
+    margin: 0;
+    padding: 2px;
+}
+.main div{
+    margin: 5px;
+}
+.main span{
+    display: flex;
+    background-color: aquamarine;
+    width: 100px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgb(14, 13, 13);
+}
+div .text{
+    font-size: 20px;
+    height: 40px;
+    background-color: rgb(3, 45, 45);
+}
+div #pm{
+    font-size: 20px;
+    background-color: rgb(99, 99, 187);
+    position: absolute;
+    width: auto;
+    height: auto;
+
+
+}
+
